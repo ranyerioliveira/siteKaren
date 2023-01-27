@@ -2,8 +2,18 @@
 
 
 body{
+    height: 100vh;
     background-color: rgb(255, 255, 255);
     font-family: 'Quicksand', sans-serif;
+    background-image: url(estantes.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+}
+nav{
+    text-align: center;
+    font-size: larger;
 }
 
 h1.titulo{
@@ -11,6 +21,10 @@ h1.titulo{
     height: 46px;
     padding: 42px;
     margin: 33px;
+}
+h1{
+    color: black;
+    text-align: center;
 }
 
 div#menuVertical{
@@ -31,15 +45,22 @@ img#logo{
 /*div#introCafe{
     display: inline-block;
 }*/
+#introducao{
+    max-width: 890px;
+    min-width: 100px;
+    padding: 18px;
+    margin: left;
+    display: block;
+}
 img#cafe{
-    max-width: 531px;
-    max-height: 420px;
+    max-width: 700px;
+    max-height: 250px;
     padding: 16px;
     margin-left: auto;
-    margin-right: auto;
+    
+    margin-top: -300px;
     display: block;
-    
-    
+        
 }
 img#karen{
     max-width: 600px;
@@ -64,18 +85,21 @@ main{
     background-color: rgb(255, 255, 255);
     max-width: 1440px;
     min-height: 785px;
-    margin: 6px;
-    padding: 42px;
+    margin: 60px;
+    padding: 60px;
     border: solid rgba(207, 203, 203, 0.452);
+    
 }
 
 div{
     background-color: rgb(240, 240, 240);
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 p{
-    margin: 16px;
+    margin: auto;
+    text-align: justify;
+    padding: 15px;
     
 }
 h2, h3{
@@ -85,7 +109,7 @@ h2, h3{
 div.rodape{
     background-color: rgb(240, 240, 240);
     text-align: center;
-    margin: 40px;
-    padding: 10px;
+    margin: 60px;
+    padding: 60px;
    
 }
