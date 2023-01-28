@@ -21,6 +21,8 @@ h1.titulo{
     height: 46px;
     padding: 42px;
     margin: 33px;
+    font-variant: small-caps;
+                
 }
 h1{
     color: black;
