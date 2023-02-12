@@ -2,7 +2,7 @@
 
 
 body{
-    height: 100vh;
+    height: 98vh;
     background-color: rgb(255, 255, 255);
     font-family: 'Quicksand', sans-serif;
     background-image: url(estantes.avif);
@@ -86,6 +86,8 @@ img#pirata{
 main{
     background-color: rgb(255, 255, 255);
     max-width: 1440px;
+    min-width: 797px;
+    max-height: 836;
     min-height: 785px;
     margin: 60px;
     padding: 60px;
